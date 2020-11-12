@@ -1,5 +1,6 @@
 import numpy as np
 import random
+import matplotlib.pyplot as plt
 
 DOUBLE = np.dtype("double")
 SINGLE = np.dtype("single")  # by default float-32
@@ -43,9 +44,13 @@ def DDM_core(frame_array, frame_count, max_tau=None, num_frame_couples=None):
         for y in range(frame_size):
             dist = np.sqrt((x - max_q )**2 + (y - max_q)**2)
             distance_map[x, y] = np.round(dist)
-    dist_map = np.fft.fftshift(distance_map)
+    distance_map = np.fft.fftshift(distance_map)
     flat_dist_map = np.ndarray.flatten(distance_map.astype(int))
     dist_counts = np.bincount(flat_dist_map) # count values at each dist
+
+    #plt.pcolor(dist_map)
+    #plt.show()
+
 
     # Actual DDM Calculation
     #   difference of frames then |FFT|**2, average then radial average
@@ -79,6 +84,7 @@ def DDM_core(frame_array, frame_count, max_tau=None, num_frame_couples=None):
 
         for i in ind_frames:
             temp_diff = frame_array[:, :, i] - frame_array[:, :, i + tau]
+
             fft_temp_diff = np.fft.fft2(temp_diff) * fft2_norm_factor
             accum_abs_FT_diff_image += np.abs(fft_temp_diff) * 2
             ccc += 1
@@ -87,10 +93,13 @@ def DDM_core(frame_array, frame_count, max_tau=None, num_frame_couples=None):
         averaged_abs_FT_diff_image = accum_abs_FT_diff_image / ccc
         cccount[tau] = ccc
 
+        #plt.pcolor(averaged_abs_FT_diff_image)
+        #plt.show()
+
         radial_binned_fft = np.bincount(flat_dist_map, weights=np.ndarray.flatten(averaged_abs_FT_diff_image))
         oneD_power_spectrum = radial_binned_fft / dist_counts
 
-        Iqtau[:, tau] = oneD_power_spectrum[1:max_q+1]
+        Iqtau[:, tau] = oneD_power_spectrum[0:max_q]
 
     return Iqtau
 
@@ -104,8 +113,7 @@ if __name__ == '__main__':
     height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
     frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))  # note this isn't actually super accurate
 
-
-    size = min(width, height) / 4 # REMOVE - just so goes faster
+    size = min(width, height) # divide 4 to reduce analysed area - remove for real implementation
     size = int(2**np.floor(np.log2(size)))
 
     vid_frame_array = np.empty((size, size, frames))
@@ -131,3 +139,22 @@ if __name__ == '__main__':
     cap.release()
 
     iqtau = DDM_core(vid_frame_array, true_frame_count)
+
+
+
+    import time
+    for tau in range(1, iqtau.shape[1]):
+        # plotting the points
+        qs = np.arange(iqtau.shape[0])
+        plt.scatter(qs, iqtau[:, tau])
+        plt.xlabel("qs")
+        plt.ylabel("y")
+    plt.show()
+
+    for qi in range(iqtau.shape[0]):
+        # plotting the points
+        taus = np.arange(1,iqtau.shape[1])
+        plt.scatter(taus, iqtau[qi, 1:])
+        plt.xlabel("Tau")
+        plt.ylabel("q")
+    plt.show()

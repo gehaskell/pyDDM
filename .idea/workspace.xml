@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ca7a623-22d7-402d-a219-1ec51d5d429c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multiddm_fuctions/0.5um colloids_Trim.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multiddm_fuctions/DDM_core.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multiddm_fuctions/multiDDM_core.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multiddm_fuctions/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multiddm_fuctions/DDM_core.py" beforeDir="false" afterPath="$PROJECT_DIR$/multiddm_fuctions/DDM_core.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,8 +16,8 @@
       <file leaf-file-name="DDM_core.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/multiddm_fuctions/DDM_core.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="131" lean-forward="true" selection-start-line="131" selection-end-line="131" />
+            <state relative-caret-position="336">
+              <caret line="115" column="30" lean-forward="true" selection-start-line="115" selection-start-column="30" selection-end-line="115" selection-end-column="30" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -32,8 +28,8 @@
       <file leaf-file-name="ddm_py_v2_win.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Desktop/ddm/ddm_py_v2_win.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-125">
-              <caret line="28" selection-start-line="28" selection-end-line="28" selection-end-column="51" />
+            <state relative-caret-position="2227">
+              <caret line="165" column="40" selection-start-line="165" selection-start-column="40" selection-end-line="165" selection-end-column="40" />
               <folding>
                 <element signature="e#90#103#0" expanded="true" />
               </folding>
@@ -195,7 +191,7 @@
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.140625" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1453125" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291536" />
@@ -283,23 +279,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/multiddm_fuctions/multiDDM_core.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$USER_HOME$/Desktop/ddm/ddm_py_v2_win.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-125">
-          <caret line="28" selection-start-line="28" selection-end-line="28" selection-end-column="51" />
+        <state relative-caret-position="2227">
+          <caret line="165" column="40" selection-start-line="165" selection-start-column="40" selection-end-line="165" selection-end-column="40" />
           <folding>
             <element signature="e#90#103#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/multiddm_fuctions/multiDDM_core.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/multiddm_fuctions/DDM_core.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="131" lean-forward="true" selection-start-line="131" selection-end-line="131" />
+        <state relative-caret-position="336">
+          <caret line="115" column="30" lean-forward="true" selection-start-line="115" selection-start-column="30" selection-end-line="115" selection-end-column="30" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
