@@ -93,7 +93,7 @@ def DDM_core(frame_array, frame_count, max_tau=None, num_frame_couples=None):
         averaged_abs_FT_diff_image = accum_abs_FT_diff_image / ccc
         cccount[tau] = ccc
 
-        #plt.pcolor(averaged_abs_FT_diff_image)
+        #plt.pcolor(np.fft.fftshift(averaged_abs_FT_diff_image))
         #plt.show()
 
         radial_binned_fft = np.bincount(flat_dist_map, weights=np.ndarray.flatten(averaged_abs_FT_diff_image))
@@ -138,17 +138,15 @@ if __name__ == '__main__':
     print("Frame array created, releasing capture")
     cap.release()
 
+    #true_frame_count = 30
+
     iqtau = DDM_core(vid_frame_array, true_frame_count)
 
-
-
-    import time
     for tau in range(1, iqtau.shape[1]):
         # plotting the points
         qs = np.arange(iqtau.shape[0])
         plt.scatter(qs, iqtau[:, tau])
         plt.xlabel("qs")
-        plt.ylabel("y")
     plt.show()
 
     for qi in range(iqtau.shape[0]):
@@ -156,5 +154,4 @@ if __name__ == '__main__':
         taus = np.arange(1,iqtau.shape[1])
         plt.scatter(taus, iqtau[qi, 1:])
         plt.xlabel("Tau")
-        plt.ylabel("q")
     plt.show()
