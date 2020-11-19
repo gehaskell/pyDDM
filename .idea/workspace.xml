@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ca7a623-22d7-402d-a219-1ec51d5d429c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/multiddm_fuctions/circular_buffer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multiddm_fuctions/0.5um colloids.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/multiddm_fuctions/circ_buff_optimised.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multiddm_fuctions/DDM_core.py" beforeDir="false" afterPath="$PROJECT_DIR$/multiddm_fuctions/DDM_core.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multiddm_fuctions/multiDDM_core.py" beforeDir="false" afterPath="$PROJECT_DIR$/multiddm_fuctions/multiDDM_core.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multiddm_fuctions/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/multiddm_fuctions/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,13 +13,35 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+            <file leaf-file-name="circular_buffer.py" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/multiddm_fuctions/circular_buffer.py">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="-275">
+                    <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+                    <folding>
+                      <element signature="e#0#18#0" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="ddm_py_v2_win.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Desktop/ddm/ddm_py_v2_win.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="175" column="100" lean-forward="true" selection-start-line="175" selection-start-column="52" selection-end-line="175" selection-end-column="105" />
+            <state relative-caret-position="4200">
+              <caret line="168" column="26" selection-start-line="168" selection-start-column="26" selection-end-line="168" selection-end-column="26" />
               <folding>
                 <element signature="e#90#103#0" expanded="true" />
               </folding>
@@ -32,8 +52,8 @@
       <file leaf-file-name="DDM_core.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/multiddm_fuctions/DDM_core.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1866">
-              <caret line="121" column="45" selection-start-line="121" selection-start-column="45" selection-end-line="121" selection-end-column="45" />
+            <state relative-caret-position="266">
+              <caret line="111" selection-start-line="111" selection-end-line="123" selection-end-column="87" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -41,28 +61,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="circular_buffer.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/multiddm_fuctions/circular_buffer.py">
+      <file leaf-file-name="circ_buff_optimised.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/multiddm_fuctions/circ_buff_optimised.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="66" column="36" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
+            <state relative-caret-position="1442">
+              <caret line="168" column="19" selection-start-line="168" selection-start-column="19" selection-end-line="168" selection-end-column="19" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
-                <element signature="e#231#990#0" />
-                <element signature="e#1067#2356#0" />
-                <element signature="e#1462#2117#0" />
-                <element signature="e#2140#2597#0" />
-                <element signature="e#3785#5183#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="random.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38-32/Lib/random.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="225" selection-start-line="225" selection-end-line="225" />
             </state>
           </provider>
         </entry>
@@ -75,7 +81,7 @@
       <file leaf-file-name="ddm_main.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Desktop/ddm/ddm_main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
+            <state relative-caret-position="1300">
               <caret line="55" selection-start-line="55" selection-end-line="62" selection-end-column="90" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -112,9 +118,12 @@
       <find>radial_</find>
       <find>min</find>
       <find>[tau]</find>
-      <find>fft_mag_accum</find>
       <find>min_ta</find>
       <find>print(</find>
+      <find>ccc</find>
+      <find>load_to</find>
+      <find>fft_mag_accum</find>
+      <find>gen_rad</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -127,14 +136,15 @@
         <option value="$PROJECT_DIR$/multiddm_fuctions/multiDDM_core.py" />
         <option value="$PROJECT_DIR$/multiddm_fuctions/circular_buffer.py" />
         <option value="$PROJECT_DIR$/multiddm_fuctions/test.py" />
+        <option value="$PROJECT_DIR$/multiddm_fuctions/circ_buff_optimised.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="739" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-1208" />
+    <option name="y" value="-491" />
     <option name="width" value="617" />
-    <option name="height" value="1066" />
+    <option name="height" value="592" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -178,7 +188,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.circ_buff_optimised">
     <configuration name="DDM_core" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pyDDM" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -192,6 +202,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/multiddm_fuctions/DDM_core.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="circ_buff_optimised" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pyDDM" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/multiddm_fuctions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/multiddm_fuctions/circ_buff_optimised.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -237,9 +265,11 @@
       <item itemvalue="Python.test" />
       <item itemvalue="Python.DDM_core" />
       <item itemvalue="Python.circular_buffer" />
+      <item itemvalue="Python.circ_buff_optimised" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.circ_buff_optimised" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.circular_buffer" />
         <item itemvalue="Python.DDM_core" />
@@ -260,19 +290,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-1088" y="-491" width="1096" height="1906" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09791667" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.09791667" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17529215" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3291536" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -283,9 +313,9 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3291536" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3291536" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1453125" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09791667" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -306,10 +336,77 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/Desktop/ddm/ddm_py_v2_win.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4025">
+          <caret line="168" column="26" lean-forward="true" selection-start-line="168" selection-start-column="26" selection-end-line="168" selection-end-column="26" />
+          <folding>
+            <element signature="e#90#103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multiddm_fuctions/DDM_core.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2975">
+          <caret line="121" column="45" selection-start-line="121" selection-start-column="45" selection-end-line="121" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38-32/Lib/random.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5450">
+          <caret line="225" selection-start-line="225" selection-end-line="225" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multiddm_fuctions/test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/ddm/ddm_main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1300">
+          <caret line="55" selection-start-line="55" selection-end-line="62" selection-end-column="90" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multiddm_fuctions/multiDDM_core.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multiddm_fuctions/circ_buff_optimised.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multiddm_fuctions/circular_buffer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3550">
+          <caret line="144" selection-start-line="144" selection-end-line="145" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/multiddm_fuctions/DDM_core.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3175">
@@ -415,20 +512,10 @@
     </entry>
     <entry file="file://$USER_HOME$/Desktop/ddm/ddm_main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
+        <state relative-caret-position="1300">
           <caret line="55" selection-start-line="55" selection-end-line="62" selection-end-column="90" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/ddm/ddm_py_v2_win.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="175" column="100" lean-forward="true" selection-start-line="175" selection-start-column="52" selection-end-line="175" selection-end-column="105" />
-          <folding>
-            <element signature="e#90#103#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -440,37 +527,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38-32/Lib/random.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="225" selection-start-line="225" selection-end-line="225" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/multiddm_fuctions/test.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/multiddm_fuctions/DDM_core.py">
+    <entry file="file://$PROJECT_DIR$/multiddm_fuctions/circular_buffer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1866">
-          <caret line="121" column="45" selection-start-line="121" selection-start-column="45" selection-end-line="121" selection-end-column="45" />
+        <state relative-caret-position="-275">
+          <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/multiddm_fuctions/test.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multiddm_fuctions/circular_buffer.py">
+    <entry file="file://$PROJECT_DIR$/multiddm_fuctions/DDM_core.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="66" column="36" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
+        <state relative-caret-position="266">
+          <caret line="111" selection-start-line="111" selection-end-line="123" selection-end-column="87" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#231#990#0" />
-            <element signature="e#1067#2356#0" />
-            <element signature="e#1462#2117#0" />
-            <element signature="e#2140#2597#0" />
-            <element signature="e#3785#5183#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/ddm/ddm_py_v2_win.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4200">
+          <caret line="168" column="26" selection-start-line="168" selection-start-column="26" selection-end-line="168" selection-end-column="26" />
+          <folding>
+            <element signature="e#90#103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38-32/Lib/random.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4725">
+          <caret line="247" selection-start-line="247" selection-end-line="247" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multiddm_fuctions/circ_buff_optimised.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1442">
+          <caret line="168" column="19" selection-start-line="168" selection-start-column="19" selection-end-line="168" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
